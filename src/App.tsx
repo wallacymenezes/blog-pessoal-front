@@ -4,9 +4,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './paginas/Home/Home';
 import Login from './paginas/Login/Login';
+import Cadastro from './paginas/Cadastro/Cadastro';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
-import Cadastro from './paginas/Cadastro/Cadastro';
+
 
 
 
@@ -23,7 +24,7 @@ function App() {
           <Route path="/home" element={<Home/>} />
           <Route path="/cadastro" element={<Cadastro/>} />
         </Routes>
-        
+
         <Footer/>
 
       </BrowserRouter>
